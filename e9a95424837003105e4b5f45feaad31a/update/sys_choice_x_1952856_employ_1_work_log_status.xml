@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="status" table="x_1952856_employ_1_work_log">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>3593b90963f44651bfcd435960276741</sys_id>
+      <name>x_1952856_employ_1_work_log</name>
+      <element>status</element>
+      <label>Draft</label>
+      <value>draft</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>be058650755b4b9e93f939ca968bf737</sys_id>
+      <name>x_1952856_employ_1_work_log</name>
+      <element>status</element>
+      <label>Submitted</label>
+      <value>submitted</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>1fc93062fe44481d8b895e24dc1f6aca</sys_id>
+      <name>x_1952856_employ_1_work_log</name>
+      <element>status</element>
+      <label>Approved</label>
+      <value>approved</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>454d945aa6eb4e67a5e46cc27c13a7ad</sys_id>
+      <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+      <name>x_1952856_employ_1_work_log</name>
+      <element>status</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>

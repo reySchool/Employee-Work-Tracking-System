@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+  <sys_user_role action="INSERT_OR_UPDATE">
+    <sys_id>b9865dc0aba54fd68fde6d9d91551033</sys_id>
+    <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+    <sys_update_name>sys_user_role_b9865dc0aba54fd68fde6d9d91551033</sys_update_name>
+    <assignable_by/>
+    <can_delegate>true</can_delegate>
+    <description>Manager role for approving work logs and viewing team dashboards</description>
+    <elevated_privilege>false</elevated_privilege>
+    <grantable>true</grantable>
+    <name>x_1952856_employ_1.manager</name>
+    <scoped_admin>false</scoped_admin>
+    <suffix>manager</suffix>
+  </sys_user_role>
+</record_update>

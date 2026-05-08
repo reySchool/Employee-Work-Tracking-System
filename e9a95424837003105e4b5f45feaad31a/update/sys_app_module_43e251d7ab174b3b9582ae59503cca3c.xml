@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_module">
+  <sys_app_module action="INSERT_OR_UPDATE">
+    <sys_id>43e251d7ab174b3b9582ae59503cca3c</sys_id>
+    <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+    <sys_update_name>sys_app_module_43e251d7ab174b3b9582ae59503cca3c</sys_update_name>
+    <active>true</active>
+    <application>b921bd73efb041bcac0d40d9a032b7df</application>
+    <hint>View and manage work logs</hint>
+    <link_type>LIST</link_type>
+    <name>x_1952856_employ_1_work_log</name>
+    <order>100</order>
+    <title>Work Logs</title>
+  </sys_app_module>
+</record_update>

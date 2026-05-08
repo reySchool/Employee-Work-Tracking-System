@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_application">
+  <sys_app_application action="INSERT_OR_UPDATE">
+    <sys_id>b921bd73efb041bcac0d40d9a032b7df</sys_id>
+    <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+    <sys_update_name>sys_app_application_b921bd73efb041bcac0d40d9a032b7df</sys_update_name>
+    <active>true</active>
+    <category/>
+    <description>Employee Work Tracking System</description>
+    <device_type>browser</device_type>
+    <hint>Track employee work logs and project tasks</hint>
+    <name/>
+    <order>100</order>
+    <roles>x_1952856_employ_1.employee</roles>
+    <title>Employee Work Tracking</title>
+  </sys_app_application>
+</record_update>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+  <sys_ui_page action="INSERT_OR_UPDATE">
+    <sys_id>258d186e85df4ddda4a4d79629199f7a</sys_id>
+    <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+    <sys_update_name>sys_ui_page_258d186e85df4ddda4a4d79629199f7a</sys_update_name>
+    <name>dashboard</name>
+    <endpoint>x_1952856_employ_1_dashboard.do</endpoint>
+    <direct>true</direct>
+    <html>
+      <![CDATA[
+<!-- @fluent-import-html WARNING: This file was imported from the output of a static build. Modifications of any kind are likely to result in unintended behavior. In most cases, you should edit the source file of the HTML imported below. If you are absolutely certain you want to take control of this HTML, you can remove this comment to prevent the SDK from regenerating it. However, you will then be responsible for the management of this HTML in your Fluent file. -->
+<html class="-polaris">
+  <head>
+    <title>Manager Dashboard</title>
+    <!-- @sdk:now-ux-globals -->
+    <!-- Resolved from sdk:now-ux-globals tag at NowSDK build time to support earlier Glide releases -->
+    <script>window.NOW = {};
+window.NOW.user = {};
+window.NOW.batch_glide_ajax_requests = false;
+window.NOW.isUsingPolaris = true;
+window.NOW.exclude_dark_theme = "false";
+window.g_ck = "$[gs.getSession().getSessionToken() || gs.getSessionToken()]";</script>
+    <!-- Include ServiceNow's required scripts -->
+    <g:requires name="scripts/doctype/functions_bootstrap14.js"></g:requires>
+    <g:requires name="scripts/lib/prototype.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideURL.js"></g:requires>
+    <g:requires name="scripts/doctype/CustomEventManager.js"></g:requires>
+    <g:requires name="scripts/classes/ajax/GlideAjax.js"></g:requires>
+    <g:requires name="scripts/classes/GlideUser.js"></g:requires>
+    <g2:client_script type="user"></g2:client_script>
+    <link rel="preload" href="/uxasset/set-cache-buster/$[UxFrameworkScriptables.getFlushTimestamp()].js" as="script"></link>
+    <g:requires name="scripts/polaris_theme_refresh_observer.js"></g:requires>
+    <link data-source-id="glide-theme" id="polarisberg_theme_variables" rel="stylesheet" href="/$uxappimmutables.do?sysparm_request_type=ux_theme$[AMP]sysparm_app_sys_id=c86a62e2c7022010099a308dc7c26022$[AMP]uxpcb=$[sn_ui.PolarisUI.getThemeVariableCssCacheKey()]"></link>
+    <script type="module" src="/uxasset/externals/@devsnc/library-uxf/index.jsdbx"></script>
+    <!-- @sdk:now-ux-globals -->
+    <script type="text/javascript">//<![CDATA[
+      (function () {
+        var testWorks = (function () {
+          try {
+            var result = Array.from(new Set([1, 2]));
+            return (
+              Array.isArray(result) && result.length === 2 && result[0] === 1
+            );
+          } catch (e) {
+            return false;
+          }
+        })();
+        if (testWorks) return;
+        var originalArrayFrom = Array.from;
+        function specArrayFrom(arrayLike, mapFn, thisArg) {
+          if (arrayLike == null)
+            throw new TypeError(
+              "Array.from requires an array-like or iterable object"
+            );
+          var C = this;
+          if (typeof C !== "function" || C === Window || C === Object) {
+            C = Array;
+          }
+          var mapping = typeof mapFn === "function";
+          var iterFn = arrayLike[Symbol.iterator];
+          if (typeof iterFn === "function") {
+            var result = [];
+            var i = 0;
+            var iterator = iterFn.call(arrayLike);
+            var step;
+            while (!(step = iterator.next()).done) {
+              result[i] = mapping
+                ? mapFn.call(thisArg, step.value, i)
+                : step.value;
+              i++;
+            }
+            result.length = i;
+            return result;
+          }
+          var items = Object(arrayLike);
+          var len = Math.min(
+            Math.max(Number(items.length) || 0, 0),
+            Number.MAX_SAFE_INTEGER
+          );
+          var result = new C(len);
+          for (var k = 0; k < len; k++) {
+            result[k] = mapping ? mapFn.call(thisArg, items[k], k) : items[k];
+          }
+          result.length = len;
+          return result;
+        }
+        Array.from = function (arrayLike, mapFn, thisArg) {
+          if (
+            arrayLike != null &&
+            typeof arrayLike[Symbol.iterator] === "function"
+          ) {
+            try {
+              return specArrayFrom.call(this, arrayLike, mapFn, thisArg);
+            } catch (e) {
+              console.error("Array.from failed with error:", e);
+              return originalArrayFrom.call(this, arrayLike, mapFn, thisArg);
+            }
+          }
+          return originalArrayFrom.call(this, arrayLike, mapFn, thisArg);
+        };
+      })();
+
+      if (window.Element && Element.Methods) {
+        Element.Methods.remove = function (element) {
+          element = $(element);
+          if (element.parentNode) {
+            element.parentNode.removeChild(element);
+          }
+          return element;
+        };
+        Element.addMethods();
+      }
+      //]]]]>
+      <![CDATA[>
+    </script>
+    <script src="/uxasset/externals/x_1952856_employ_1/main.jsdbx?uxpcb=$[UxFrameworkScriptables.getFlushTimestamp()]" type="module"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>]]>
+    </html>
+  </sys_ui_page>
+  <sn_glider_source_artifact_m2m action="INSERT_OR_UPDATE">
+    <sys_id>185ddbce59874f878fdfe25f9e76a669</sys_id>
+    <application_file>258d186e85df4ddda4a4d79629199f7a</application_file>
+    <source_artifact>4e27fc203dbd4be0bbefc38f4a29b1ae</source_artifact>
+  </sn_glider_source_artifact_m2m>
+  <sn_glider_source_artifact action="INSERT_OR_UPDATE">
+    <sys_id>4e27fc203dbd4be0bbefc38f4a29b1ae</sys_id>
+    <name>x_1952856_employ_1_dashboard.do - BYOUI Files</name>
+  </sn_glider_source_artifact>
+  <sys_attachment action="INSERT_OR_UPDATE">
+    <sys_id>752f9a6e5af26b5aa34a8eaaacee3e50</sys_id>
+    <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+    <table_sys_id>4e27fc203dbd4be0bbefc38f4a29b1ae</table_sys_id>
+    <table_name>sn_glider_source_artifact</table_name>
+    <file_name>x_1952856_employ_1_dashboard.do - BYOUI Files.zip</file_name>
+    <content_type>application/zip</content_type>
+    <size_bytes>8317</size_bytes>
+    <size_compressed>4258</size_compressed>
+    <compressed>true</compressed>
+    <chunk_size_bytes>933336</chunk_size_bytes>
+    <hash>fb0c29ae1e93ff32aca936658f3b9ab478831ea286b9f135ef851543a6f47a2d</hash>
+    <average_image_color/>
+    <image_width/>
+    <image_height/>
+  </sys_attachment>
+  <sys_attachment_doc action="INSERT_OR_UPDATE">
+    <sys_id>8b55603649be1c09b269f7811f625fd8</sys_id>
+    <sys_attachment>752f9a6e5af26b5aa34a8eaaacee3e50</sys_attachment>
+    <position>0</position>
+    <data>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</data>
+  </sys_attachment_doc>
+  <sys_attachment action="delete_multiple" query="table_sys_id=4e27fc203dbd4be0bbefc38f4a29b1ae^sys_idNOT IN752f9a6e5af26b5aa34a8eaaacee3e50"/>
+  <sys_attachment_doc action="delete_multiple" query="sys_attachment.table_sys_id=4e27fc203dbd4be0bbefc38f4a29b1ae^sys_idNOT IN8b55603649be1c09b269f7811f625fd8"/>
+</record_update>
