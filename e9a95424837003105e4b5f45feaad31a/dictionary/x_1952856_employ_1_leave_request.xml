@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element active="false" attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f1f932350169485497d3bfc196fbdbc5" label="Leave Request" name="x_1952856_employ_1_leave_request" type="collection">
+        <element choice="3" default="annual" label="Leave Type" mandatory="true" max_length="40" name="leave_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Annual Leave" sequence="0" value="annual"/>
+                <element inactive_on_update="false" label="Personal Leave" sequence="2" value="personal"/>
+                <element inactive_on_update="false" label="Sick Leave" sequence="1" value="sick"/>
+                <element inactive_on_update="false" label="Unpaid Leave" sequence="3" value="unpaid"/>
+            </choice>
+        </element>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element choice="3" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+            </choice>
+        </element>
+        <element label="Reason" max_length="500" name="reason" type="string"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

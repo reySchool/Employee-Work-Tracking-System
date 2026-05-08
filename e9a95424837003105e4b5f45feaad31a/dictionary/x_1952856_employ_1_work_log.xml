@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element active="false" db_object_id="18ba9a8e2b2942f9a869ba67e14477c2" label="Work Log" name="x_1952856_employ_1_work_log" type="collection">
+        <element label="Hours Worked" mandatory="true" max_length="20" name="hours_worked" type="decimal"/>
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element choice="3" default="draft" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+            </choice>
+        </element>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

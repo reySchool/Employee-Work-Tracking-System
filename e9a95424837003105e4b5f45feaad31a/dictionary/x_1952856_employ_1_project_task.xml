@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element active="false" db_object_id="61fa3e49233140249cf6e5f34d9bb198" label="Project Task" name="x_1952856_employ_1_project_task" type="collection">
+        <element label="Task Name" mandatory="true" max_length="200" name="task_name" type="string"/>
+        <element default="0" label="Progress %" max_length="40" name="progress_pct" type="integer"/>
+        <element label="Assigned To" mandatory="true" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>
