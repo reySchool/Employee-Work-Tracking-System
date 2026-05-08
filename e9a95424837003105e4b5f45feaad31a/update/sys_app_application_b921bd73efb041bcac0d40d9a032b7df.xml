@@ -7,7 +7,7 @@
     <category/>
     <description>Employee Work Tracking System</description>
     <device_type>browser</device_type>
-    <hint>Track employee work logs and project tasks</hint>
+    <hint>Track employee work logs, project tasks, and leave requests</hint>
     <name/>
     <order>100</order>
     <roles>x_1952856_employ_1.employee</roles>

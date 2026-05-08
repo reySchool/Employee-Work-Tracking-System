@@ -5,9 +5,9 @@
     <sys_update_name>sys_app_module_0dbd9c8a094244299072ae272e88cd4b</sys_update_name>
     <active>true</active>
     <application>b921bd73efb041bcac0d40d9a032b7df</application>
-    <hint>View total hours worked per employee</hint>
+    <hint>View employee hours and leave overview</hint>
     <link_type>DIRECT</link_type>
-    <order>400</order>
+    <order>600</order>
     <query>x_1952856_employ_1_dashboard.do</query>
     <roles>x_1952856_employ_1.manager</roles>
     <title>Manager Dashboard</title>

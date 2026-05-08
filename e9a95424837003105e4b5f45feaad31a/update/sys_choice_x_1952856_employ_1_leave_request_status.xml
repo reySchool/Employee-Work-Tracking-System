@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+  <sys_choice_set field="status" table="x_1952856_employ_1_leave_request">
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>fc87ec2e3ded4a3493d4fa8961a9cfc3</sys_id>
+      <name>x_1952856_employ_1_leave_request</name>
+      <element>status</element>
+      <label>Draft</label>
+      <value>draft</value>
+      <sequence>0</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>58f9067f4a1e45c387d5d3ff24ba2776</sys_id>
+      <name>x_1952856_employ_1_leave_request</name>
+      <element>status</element>
+      <label>Submitted</label>
+      <value>submitted</value>
+      <sequence>1</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>5012a39732e14e06896c4635a827af5a</sys_id>
+      <name>x_1952856_employ_1_leave_request</name>
+      <element>status</element>
+      <label>Approved</label>
+      <value>approved</value>
+      <sequence>2</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice action="INSERT_OR_UPDATE">
+      <sys_id>10c13cfd68c743449e200c1b0c65cc55</sys_id>
+      <name>x_1952856_employ_1_leave_request</name>
+      <element>status</element>
+      <label>Rejected</label>
+      <value>rejected</value>
+      <sequence>3</sequence>
+      <inactive>false</inactive>
+      <inactive_on_update>false</inactive_on_update>
+      <language>en</language>
+    </sys_choice>
+    <sys_choice_set action="INSERT_OR_UPDATE">
+      <sys_id>9187d590f1a040ddab207664fcdce0fb</sys_id>
+      <sys_scope display_value="x_1952856_employ_1">e9a95424837003105e4b5f45feaad31a</sys_scope>
+      <name>x_1952856_employ_1_leave_request</name>
+      <element>status</element>
+    </sys_choice_set>
+  </sys_choice_set>
+</record_update>
